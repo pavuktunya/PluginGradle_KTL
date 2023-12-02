@@ -35,12 +35,10 @@ abstract class ApplicationExtension(private val target: Project){
 
     val javaPlugin = extension<JavaPluginExtension>()
     val javaApplication = extension<JavaApplication>()
-    val jib = extension<JibExtension>()
-
 
 
     init{
-
+        println("Hello gradle!")
     }
 }
 
